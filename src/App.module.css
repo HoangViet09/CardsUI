@@ -1,0 +1,11 @@
+.container {
+  width: 45rem;
+  height: 50rem;
+  background: rgb(21, 132, 29);
+  background: linear-gradient(
+    6deg,
+    rgba(21, 132, 29, 1) 35%,
+    rgba(24, 77, 10, 1) 100%
+  );
+  margin: 0 auto;
+}

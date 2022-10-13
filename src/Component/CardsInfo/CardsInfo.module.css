@@ -1,0 +1,57 @@
+.cardsInfoArea {
+  width: 17rem;
+  height: 14rem;
+  background-color: #ddb786;
+  margin: 0 auto;
+  border: 5px solid white;
+}
+.cardsRepresent {
+  margin: 5px 10px;
+  position: relative;
+  display: flex;
+}
+.cardsRepresentContent {
+  display: flex;
+  width: 30%;
+  height: 76px;
+  background-color: white;
+  border-radius: 7px;
+  -webkit-box-shadow: 8px 7px 13px 2px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 8px 7px 13px 2px rgba(0, 0, 0, 0.31);
+  box-shadow: 8px 7px 13px 2px rgba(0, 0, 0, 0.31);
+  font-size: larger;
+  justify-content: center;
+}
+
+.cardsRepresentContent:nth-child(1) {
+  position: absolute;
+  margin: 10px 0 0 20px;
+  z-index: 0;
+}
+.cardsRepresentContent:nth-child(2) {
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.cardsRepresentContent:nth-child(3) {
+  position: absolute;
+  margin: 10px 0 0 150px;
+  z-index: 3;
+}
+.cardsPoint {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: larger;
+}
+
+.cardsUserName {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.cardsTotalScore {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: larger;
+}
